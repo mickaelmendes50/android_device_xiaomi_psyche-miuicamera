@@ -1,18 +1,18 @@
-# android_device_xiaomi_lisa-miuicamera
+# android_device_xiaomi_psyche-miuicamera
 
-Prebuilt stock MIUI Camera for Xiaomi 11 Lite NE (lisa), to include in custom ROM builds.
+Prebuilt stock MIUI Camera for Xiaomi 12X (psyche), to include in custom ROM builds.
 
-Extracted from lisa MIUI package (refer proprietary-files.txt for version).
+Extracted from psyche MIUI package (refer proprietary-files.txt for version).
 
 ### How to use?
 
-1. Clone this repo to `device/xiaomi/lisa-miuicamera`
+1. Clone this repo to `device/xiaomi/psyche-miuicamera`
 
 2. Inherit it from `device.mk` in device tree:
 
 ```
 # Camera
-$(call inherit-product-if-exists, device/xiaomi/lisa-miuicamera/config.mk)
+$(call inherit-product-if-exists, device/xiaomi/psyche-miuicamera/config.mk)
 ```
 
 3. Ensure that required properties are set:
